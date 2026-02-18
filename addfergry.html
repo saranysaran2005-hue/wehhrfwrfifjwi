@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATLAS Navigation - Elite Expeditions</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= PERSISTENT NAVBAR ================= -->
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/12/29173021/Untitled-design-42.jpg" alt="ATLAS Logo" class="logo-icon" onclick="display('Homecontainersection1')" style="cursor: pointer;">
+            <div onclick="display('Homecontainersection1')" class="brand-name">ATLAS</div>
+        </div>
+        <ul class="menu">
+            <li onclick="display('expectioncontainersection1')">Expeditions</li>
+            <li onclick="display('Bookingsection1')">Book</li>
+            <li onclick="display('Bookingsection1')" class="btn">Inquire Now</li>
+        </ul>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <div id="Homecontainersection1">
+
+        <div class="travel-container">
+            <div class="intro-image-card">
+
+                <div class="overlay">
+                    <div class="overlay-text">
+                        <p class="new-para slide-up">ELITE EXPEDITION COMPANY</p>
+                        <h1 class="slide-up">Explore<br />The World</h1>
+                        <p class="para slide-up">We guide the bold to Earth's last frontiers. Antarctica. The Himalayas. The Amazon. Where comfort ends, transformation begins.</p>
+                        <button class="slide-up cta-button">Get Started</button>
+                        <div class="line"></div>
+                        <div class="info-bar">
+                            <div>HQ: 40.7128° N, 74.0060° W</div>
+                            <div class="status">
+                                <span class="status-dot"></span>
+                                STATUS: ACCEPTING APPLICATIONS
+                            </div>
+                            <div>EST. 2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="OURPHILOSOPHY-card">
+                <div class="OURPHILOSOPHY-card-text">
+                    <p class="OURPHILOSOPHY-card-para">OUR PHILOSOPHY</p>
+                    <h1 class="OURPHILOSOPHY-card-heading">COMFORT IS THE<br />ENEMY OF GROWTH</h1>
+
+                    <p class="OURPHILOSOPHY-card-para1">The most profound transformations happen at the edge of our capabilities. We don't offer vacations—we offer crucibles.</p>
+
+                    <p class="OURPHILOSOPHY-card-para1">Every expedition is a carefully orchestrated descent into the unknown, guided by veterans who've spent decades mapping the unmappable.</p>
+
+                    <p class="OURPHILOSOPHY-card-last">"The wilderness holds answers to questions we haven't yet learned to ask."</p>
+
+                    <p class="OURPHILOSOPHY-card-para4">— ATLAS FOUNDER, 2024</p>
+                </div>
+
+                <div class="image-box">
+                    <img src="https://images.hdqwalls.com/download/travel-hd-2880x1800.jpg" alt="Mountain expedition" />
+                </div>
+            </div>
+
+            <!-- ===== SLIDER SECTION ===== -->
+            <section class="image-background">
+
+                <div class="section-header">
+                    <p class="section-subtitle">FEATURED JOURNEYS</p>
+                    <div class="header-row">
+                        <h1 class="section-title">NEXT DEPARTURES</h1>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <!-- ARROWS -->
+                    <div>
+                        <div class="arrow-container">
+                            <div class="arrow-btn" id="prev">
+                                <svg viewBox="0 0 24 24">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </div>
+
+                            <div class="arrow-btn" id="next">
+                                <svg viewBox="0 0 24 24">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SLIDER -->
+                    <div class="slider">
+                        <div class="slider-track" id="track">
+
+                            <!-- CARD 1 -->
+                            <div class="card">
+                                <div class="card-image4">
+                                    <span class="badge left">HARD</span>
+                                    <span class="badge right">FEB 2025</span>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="location">Torres del Paine, Chile</p>
+                                    <h2>Patagonia Traverse</h2>
+                                    <div class="line"></div>
+                                    <div class="stats">
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                            </div>
+                                            <h3>Hard</h3>
+                                            <p>Difficulty</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <h3>14 Days</h3>
+                                            <p>Duration</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-crown"></i>
+                                            </div>
+                                            <h3>2,850m</h3>
+                                            <p>Altitude</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn">View Itinerary</button>
+                                </div>
+                            </div>
+
+                            <!-- CARD 2 -->
+                            <div class="card">
+                                <div class="card-image1">
+                                    <span class="badge left">HARD</span>
+                                    <span class="badge right">FEB 2025</span>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="location">Mount Everest, Nepal</p>
+                                    <h2>Everest Base Camp</h2>
+                                    <div class="line"></div>
+                                    <div class="stats">
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                            </div>
+                                            <h3>Hard</h3>
+                                            <p>Difficulty</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <h3>14 Days</h3>
+                                            <p>Duration</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-crown"></i>
+                                            </div>
+                                            <h3>5,364m</h3>
+                                            <p>Altitude</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn">View Itinerary</button>
+                                </div>
+                            </div>
+
+                            <!-- CARD 3 -->
+                            <div class="card">
+                                <div class="card-image2">
+                                    <span class="badge left">EXTREME</span>
+                                    <span class="badge right">MAR 2025</span>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="location">Karakoram, Pakistan</p>
+                                    <h2>K2 Base Camp</h2>
+                                    <div class="line"></div>
+                                    <div class="stats">
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                            </div>
+                                            <h3>Extreme</h3>
+                                            <p>Difficulty</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <h3>21 Days</h3>
+                                            <p>Duration</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-crown"></i>
+                                            </div>
+                                            <h3>5,150m</h3>
+                                            <p>Altitude</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn">View Itinerary</button>
+                                </div>
+                            </div>
+
+                            <!-- CARD 4 -->
+                            <div class="card">
+                                <div class="card-image3">
+                                    <span class="badge left">EXTREME</span>
+                                    <span class="badge right">JUN 2025</span>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="location">Greenland Ice Sheet</p>
+                                    <h2>Arctic Expedition</h2>
+                                    <div class="line"></div>
+                                    <div class="stats">
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                            </div>
+                                            <h3>Extreme</h3>
+                                            <p>Difficulty</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <h3>18 Days</h3>
+                                            <p>Duration</p>
+                                        </div>
+
+                                        <div class="stat-item">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-water"></i>
+                                            </div>
+                                            <h3>Sea Level</h3>
+                                            <p>Altitude</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn">View Itinerary</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div class="footer">
+
+                <div class="last-card">
+
+                    <div class="last-card-container">
+                        <h1 class="logo">ATLAS</h1>
+                        <p class="last-card-para">
+                            Elite expeditions to Earth's last frontiers. We guide the bold beyond the edge of the map, where transformation awaits.
+                        </p>
+                    </div>
+
+                    <div class="last-card-container">
+                        <h1 class="last-card-heading">NAVIGATE</h1>
+                        <p class="last-card-para" onclick="display('Homecontainersection1')" style="cursor: pointer;">Home</p>
+                        <p class="last-card-para" onclick="display('expectioncontainersection1')" style="cursor: pointer;">Expeditions</p>
+                        <p class="last-card-para" onclick="display('Bookingsection1')" style="cursor: pointer;">Booking</p>
+                    </div>
+
+                    <div class="last-card-container">
+                        <h1 class="last-card-heading">CONNECT</h1>
+                        <p class="last-card-para">expeditions@atlas.com</p>
+                        <p class="last-card-para">+1 (555) 123-4567</p>
+                    </div>
+
+                    <div class="line1"></div>
+
+                    <div class="footer-bottom">
+                        <p>© 2024 ATLAS EXPEDITIONS. ALL RIGHTS RESERVED.</p>
+                        <p class="location">HQ: 40.7128° N, 74.0060° W</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const track = document.getElementById("track");
+            const prevBtn = document.getElementById("prev");
+            const nextBtn = document.getElementById("next");
+
+            let index = 0;
+            const gap = 20;
+
+            const getCardWidth = () => {
+                const card = document.querySelector(".card");
+                return card.offsetWidth + gap;
+            };
+
+            nextBtn.addEventListener("click", () => {
+                const cardWidth = getCardWidth();
+                const visibleCards = Math.floor(
+                    document.querySelector(".slider").offsetWidth / cardWidth
+                );
+                const maxIndex = track.children.length - visibleCards;
+
+                if (index < maxIndex) {
+                    index++;
+                    track.style.transform = `translateX(-${index * cardWidth}px)`;
+                }
+            });
+
+            prevBtn.addEventListener("click", () => {
+                const cardWidth = getCardWidth();
+                if (index > 0) {
+                    index--;
+                    track.style.transform = `translateX(-${index * cardWidth}px)`;
+                }
+            });
+        </script>
+
+    </div>
+
+    <!-- ================= EXPEDITIONS ================= -->
+    <div id="expectioncontainersection1">
+        <div class="Expeditions-container">
+
+            <div class="Expeditions-Atlas-card">
+                <div class="Expeditions-text-content">
+                    <p class="Expeditions-para-ex">CATALOG</p>
+                    <h1 class="Expeditions-heaing-ex">EXPEDITION LOG</h1>
+                    <p class="Expeditions-status-text">Each journey below has been tested, refined, and proven to deliver transformation. Filter by difficulty to find your edge.</p>
+                </div>
+            </div>
+
+            <div class="Expeditions-button-container">
+                <button class="Expeditions-filter-btn active" onclick="filterExpeditions('section1', this)">ALL</button>
+                <button class="Expeditions-filter-btn" onclick="filterExpeditions('section2', this)">MODERATE</button>
+                <button class="Expeditions-filter-btn" onclick="filterExpeditions('section3', this)">HARD</button>
+                <button class="Expeditions-filter-btn" onclick="filterExpeditions('section4', this)">EXTREME</button>
+            </div>
+
+            <div class="Expeditions-line"></div>
+
+            <div id="section1" class="expeditions-section">
+                <div class="Expeditions-card-container">
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=300&fit=crop" alt="Torres del Paine" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">FEB 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Torres del Paine, Chile</div>
+                            <div class="Expeditions-title">Patagonia Traverse</div>
+                            <div class="Expeditions-desc">
+                                Cross the legendary Torres del Paine circuit through glaciers, granite spires, and pristine wilderness. A true test of endurance and spirit.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>14 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>2,850m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" alt="Mount Kilimanjaro" />
+                            <span class="Expeditions-tag left">MODERATE</span>
+                            <span class="Expeditions-tag right">MAR 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Mount Kilimanjaro, Tanzania</div>
+                            <div class="Expeditions-title">Kilimanjaro Summit</div>
+                            <div class="Expeditions-desc">
+                                Trek to the summit of Africa's highest peak with breathtaking views across Tanzania and the surrounding landscape.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Moderate</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>8 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,895m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn orange">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=300&fit=crop" alt="Swiss Alps" />
+                            <span class="Expeditions-tag left">MODERATE</span>
+                            <span class="Expeditions-tag right">APR 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Swiss Alps, Switzerland</div>
+                            <div class="Expeditions-title">Alpine Adventure</div>
+                            <div class="Expeditions-desc">
+                                Experience the majesty of the Alpine peaks with guided mountain trails and stunning vistas across Europe.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Moderate</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>10 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>4,274m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn orange">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=500&h=300&fit=crop" alt="K2 Base Camp" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">MAY 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Karakoram, Pakistan</div>
+                            <div class="Expeditions-title">K2 Base Camp</div>
+                            <div class="Expeditions-desc">
+                                Trek to the base of the world's most dangerous mountain. A journey through the Karakoram that tests every limit.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>21 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,150m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" alt="Mount Everest" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">JUN 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Mount Everest, Nepal</div>
+                            <div class="Expeditions-title">Everest Base Camp</div>
+                            <div class="Expeditions-desc">
+                                Trek through the Himalayas to the base camp of the world's highest mountain with experienced guides.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>14 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,364m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500&h=300&fit=crop" alt="Arctic Expedition" />
+                            <span class="Expeditions-tag left">EXTREME</span>
+                            <span class="Expeditions-tag right">JUL 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Greenland Ice Sheet</div>
+                            <div class="Expeditions-title">Arctic Expedition</div>
+                            <div class="Expeditions-desc">
+                                Kayak through iceberg-filled fjords and witness the raw power of the Arctic in its summer glory.
+                            </div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Extreme</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>18 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-water"></i>
+                                    <p><strong>Sea Level</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section2" class="expeditions-section">
+                <div class="Expeditions-card-container">
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=300&fit=crop" alt="Alpine Adventure" />
+                            <span class="Expeditions-tag left">MODERATE</span>
+                            <span class="Expeditions-tag right">APR 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Swiss Alps, Switzerland</div>
+                            <div class="Expeditions-title">Alpine Adventure</div>
+                            <div class="Expeditions-desc">Experience the majesty of Alpine peaks with expert guidance and stunning mountain views.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Moderate</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>10 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>4,274m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn orange">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" alt="Kilimanjaro" />
+                            <span class="Expeditions-tag left">MODERATE</span>
+                            <span class="Expeditions-tag right">MAR 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Mount Kilimanjaro, Tanzania</div>
+                            <div class="Expeditions-title">Kilimanjaro Summit</div>
+                            <div class="Expeditions-desc">Climb Africa's highest peak with experienced guides and comfortable accommodations.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Moderate</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>8 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,895m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn orange">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=300&fit=crop" alt="Patagonia" />
+                            <span class="Expeditions-tag left">MODERATE</span>
+                            <span class="Expeditions-tag right">FEB 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Torres del Paine, Chile</div>
+                            <div class="Expeditions-title">Patagonia Explorer</div>
+                            <div class="Expeditions-desc">Explore Patagonian landscapes with guided hikes and professional mountain support.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Moderate</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>12 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>2,500m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn orange">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section3" class="expeditions-section">
+                <div class="Expeditions-card-container">
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=500&h=300&fit=crop" alt="K2" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">MAY 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Karakoram, Pakistan</div>
+                            <div class="Expeditions-title">K2 Base Camp</div>
+                            <div class="Expeditions-desc">Trek to the base of the world's most dangerous mountain through challenging Karakoram terrain.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>21 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,150m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" alt="Everest" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">JUN 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Mount Everest, Nepal</div>
+                            <div class="Expeditions-title">Everest Base Camp</div>
+                            <div class="Expeditions-desc">Trek through the Himalayas to the base of the world's highest mountain with expert support.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>14 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>5,364m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=300&fit=crop" alt="Patagonia" />
+                            <span class="Expeditions-tag left">HARD</span>
+                            <span class="Expeditions-tag right">FEB 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Torres del Paine, Chile</div>
+                            <div class="Expeditions-title">Patagonia Traverse</div>
+                            <div class="Expeditions-desc">Cross the legendary Torres del Paine circuit through glaciers, granite spires and pristine wilderness.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Hard</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>14 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>2,850m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section4" class="expeditions-section">
+                <div class="Expeditions-card-container">
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=500&h=300&fit=crop" alt="K2" />
+                            <span class="Expeditions-tag left">EXTREME</span>
+                            <span class="Expeditions-tag right">MAY 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Karakoram, Pakistan</div>
+                            <div class="Expeditions-title">K2 Summit Attempt</div>
+                            <div class="Expeditions-desc">The ultimate mountaineering challenge. Trek to K2 base camp and attempt the summit of the world's second highest peak.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Extreme</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>35 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>8,611m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500&h=300&fit=crop" alt="Arctic" />
+                            <span class="Expeditions-tag left">EXTREME</span>
+                            <span class="Expeditions-tag right">JUL 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Greenland Ice Sheet</div>
+                            <div class="Expeditions-title">Arctic Expedition</div>
+                            <div class="Expeditions-desc">Kayak through iceberg-filled fjords and witness the raw power of the Arctic in its summer glory.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Extreme</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>18 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-water"></i>
+                                    <p><strong>Sea Level</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+
+                    <div class="Expeditions-card">
+                        <div class="Expeditions-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" alt="Everest" />
+                            <span class="Expeditions-tag left">EXTREME</span>
+                            <span class="Expeditions-tag right">AUG 2025</span>
+                        </div>
+
+                        <div class="Expeditions-card-content">
+                            <div class="Expeditions-location">Mount Everest, Nepal</div>
+                            <div class="Expeditions-title">Everest Summit</div>
+                            <div class="Expeditions-desc">Attempt to summit the world's highest mountain. For experienced mountaineers only with high altitude expertise.</div>
+
+                            <div class="Expeditions-divider"></div>
+
+                            <div class="Expeditions-stats">
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <p><strong>Extreme</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p><strong>28 Days</strong></p>
+                                </div>
+                                <div class="Expeditions-stat">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <p><strong>8,849m</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="Expeditions-btn">VIEW ITINERARY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Expeditions-footer">
+                <div class="Expeditions-last-card">
+
+                    <div class="Expeditions-last-card-container">
+                        <h1 class="Expeditions-logo">ATLAS</h1>
+                        <p class="Expeditions-last-card-para">
+                            Elite expeditions to Earth's last frontiers. We guide the bold beyond the edge of the map, where transformation awaits.
+                        </p>
+                    </div>
+
+                    <div class="Expeditions-last-card-container">
+                        <h1 class="Expeditions-last-card-heading">NAVIGATE</h1>
+                        <p class="Expeditions-last-card-para" onclick="display('Homecontainersection1')" style="cursor: pointer;">Home</p>
+                        <p class="Expeditions-last-card-para" onclick="display('expectioncontainersection1')" style="cursor: pointer;">Expeditions</p>
+                        <p class="Expeditions-last-card-para" onclick="display('Bookingsection1')" style="cursor: pointer;">Booking</p>
+                    </div>
+
+                    <div class="Expeditions-last-card-container">
+                        <h1 class="Expeditions-last-card-heading">CONTACT</h1>
+                        <p class="Expeditions-last-card-para">expeditions@atlas.com</p>
+                        <p class="Expeditions-last-card-para">+1 (555) 123-4567</p>
+                    </div>
+
+                    <div class="Expeditions-line1"></div>
+
+                    <div class="Expeditions-footer-bottom">
+                        <p>© 2024 ATLAS EXPEDITIONS. ALL RIGHTS RESERVED.</p>
+                        <p class="Expeditions-location">HQ: 40.7128° N, 74.0060° W</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================= BOOKING ================= -->
+    <div id="Bookingsection1">
+
+        <div class="Booking-container">
+
+            <div class="Booking-Atlas-card">
+                <div class="Booking-text-content">
+
+                    <p class="Booking-para-ex">BEGIN YOUR JOURNEY</p>
+
+                    <h1 class="Booking-heaing-ex">START YOUR INQUIRY</h1>
+
+                    <div class="Booking-status-bar">
+                        <span class="Booking-dot"></span>
+                        <p class="Booking-status-text">STATUS: ACCEPTING APPLICATIONS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Booking-list-card">
+                <div>
+                    <h1>REQUIREMENTS & WARNINGS</h1>
+                    <div class="Booking-medical-clencer-card">
+                        <div class="Booking-icon-box">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+
+                        <div class="Booking-text-box">
+                            <h1>MEDICAL CLEARANCE</h1>
+                            <p>
+                                All participants must provide a medical certificate from a licensed physician confirming fitness for high-altitude or extreme environment activities.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="Booking-medical-clencer-card">
+                        <div class="Booking-icon-box">
+                            <svg class="Booking-custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="Booking-text-box">
+                            <h1>INSURANCE REQUIREMENTS</h1>
+                            <p>
+                                Comprehensive travel and medical insurance is mandatory for all expeditions, with minimum coverage of $100,000 for medical evacuation.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="Booking-medical-clencer-card">
+                        <div class="Booking-icon-box">
+                            <svg class="Booking-custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+
+                        <div class="Booking-text-box">
+                            <h1>DOCUMENTATION NEEDED</h1>
+                            <p>
+                                Valid passport with at least 6 months validity, visa approvals where required, and emergency contact information must be submitted.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="Booking-medical-clencer-card">
+                        <div class="Booking-icon-box">
+                            <svg class="Booking-custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                <line x1="12" y1="9" x2="12" y2="13"></line>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+
+                        <div class="Booking-text-box">
+                            <h1>FITNESS & EXPERIENCE</h1>
+                            <p>
+                                Participants must be in excellent physical condition and have relevant experience for the chosen expedition's difficulty level.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="Booking-line"></div>
+                    <div class="Booking-MEDICAL-CLEARANCE-final-content">
+                        <p class="Booking-final-content-para">ATLAS EXPEDITIONS HQ</p>
+                        <p class="Booking-final-content-heading">40.7128° N, 74.0060° W</p>
+                        <p class="Booking-final-content-para">New York, United States</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="Booking-field-document-container">
+                    <div class="Booking-doc-header">
+                        FIELD DOCUMENT // CLASSIFICATION: OPEN
+                    </div>
+
+                    <div class="Booking-doc-row">
+                        <div class="Booking-doc-group">
+                            <span class="Booking-doc-label">FIRST NAME</span>
+                            <input type="text" class="Booking-doc-input" placeholder="John">
+                        </div>
+                        <div class="Booking-doc-group">
+                            <span class="Booking-doc-label">LAST NAME</span>
+                            <input type="text" class="Booking-doc-input" placeholder="Doe">
+                        </div>
+                    </div>
+
+                    <div class="Booking-doc-group">
+                        <span class="Booking-doc-label">EMAIL ADDRESS</span>
+                        <input type="email" class="Booking-doc-input" placeholder="john@example.com">
+                    </div>
+
+                    <div class="Booking-doc-group">
+                        <span class="Booking-doc-label">PHONE NUMBER</span>
+                        <input type="tel" class="Booking-doc-input" placeholder="+1 (555) 123-4567">
+                    </div>
+
+                    <div class="Booking-doc-group">
+                        <span class="Booking-doc-label">EXPEDITION OF INTEREST</span>
+                        <select class="Booking-doc-input">
+                            <option value="" disabled selected>Select an expedition</option>
+                            <option value="1">Patagonia Traverse</option>
+                            <option value="2">K2 Base Camp</option>
+                            <option value="3">Arctic Expedition</option>
+                            <option value="4">Everest Base Camp</option>
+                            <option value="5">Kilimanjaro Summit</option>
+                            <option value="6">Alpine Adventure</option>
+                        </select>
+                    </div>
+
+                    <div class="Booking-doc-group">
+                        <span class="Booking-doc-label">RELEVANT EXPERIENCE</span>
+                        <textarea class="Booking-doc-input Booking-doc-textarea" placeholder="Tell us about your mountaineering experience..."></textarea>
+                    </div>
+
+                    <div class="Booking-doc-group">
+                        <span class="Booking-doc-label">ADDITIONAL MESSAGE</span>
+                        <input type="text" class="Booking-doc-input" placeholder="Any additional information?">
+                    </div>
+
+                    <button type="submit" class="Booking-doc-submit">SUBMIT INQUIRY</button>
+                </div>
+
+            </div>
+
+            <div class="Booking-footer">
+
+                <div class="Booking-last-card">
+
+                    <div class="Booking-last-card-container">
+                        <h1 class="Booking-logo">ATLAS</h1>
+                        <p class="Booking-last-card-para">
+                            Elite expeditions to Earth's last frontiers. We guide the bold beyond the edge of the map, where transformation awaits.
+                        </p>
+                    </div>
+
+                    <div class="Booking-last-card-container">
+                        <h1 class="Booking-last-card-heading">NAVIGATE</h1>
+                        <p class="Booking-last-card-para" onclick="display('Homecontainersection1')" style="cursor: pointer;">Home</p>
+                        <p class="Booking-last-card-para" onclick="display('expectioncontainersection1')" style="cursor: pointer;">Expeditions</p>
+                        <p class="Booking-last-card-para" onclick="display('Bookingsection1')" style="cursor: pointer;">Booking</p>
+                    </div>
+
+                    <div class="Booking-last-card-container">
+                        <h1 class="Booking-last-card-heading">CONTACT</h1>
+                        <p class="Booking-last-card-para">expeditions@atlas.com</p>
+                        <p class="Booking-last-card-para">+1 (555) 123-4567</p>
+                    </div>
+
+                    <div class="Booking-line1"></div>
+
+                    <div class="Booking-footer-bottom">
+                        <p>© 2024 ATLAS EXPEDITIONS. ALL RIGHTS RESERVED.</p>
+                        <p class="Booking-location">HQ: 40.7128° N, 74.0060° W</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================= GLOBAL JS ================= -->
+    <script>
+        function display(sectionId) {
+            const sections = [
+                "Homecontainersection1",
+                "expectioncontainersection1",
+                "Bookingsection1"
+            ];
+
+            sections.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.style.display = "none";
+                }
+            });
+
+            const active = document.getElementById(sectionId);
+            if (active) {
+                active.style.display = "block";
+                window.scrollTo(0, 0);
+            }
+        }
+
+        display("Homecontainersection1");
+    </script>
+
+    <script>
+        function filterExpeditions(sectionId, btn) {
+            const sections = ['section1', 'section2', 'section3', 'section4'];
+            sections.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.style.display = "none";
+                }
+            });
+
+            const active = document.getElementById(sectionId);
+            if (active) {
+                active.style.display = "flex";
+            }
+
+            const buttons = document.querySelectorAll('.Expeditions-filter-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+
+            if (btn) {
+                btn.classList.add('active');
+            }
+        }
+
+        window.addEventListener('load', function() {
+            const firstBtn = document.querySelector('.Expeditions-filter-btn');
+            if (firstBtn) {
+                firstBtn.classList.add('active');
+            }
+            const section1 = document.getElementById('section1');
+            if (section1) {
+                section1.style.display = "flex";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
